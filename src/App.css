@@ -1,0 +1,113 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.Card {
+  color: #000;
+  background-color: #fff;
+  padding-bottom: 20px;
+  box-shadow: 0 15px 25px #817c7c33;
+  font-size: medium;
+  border-radius: 14px;
+  backdrop-filter: blur(2px);
+  text-align: center;
+  margin-bottom: 30px;
+  height: 350px;
+  
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  padding-bottom: 8%;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.Card:hover {
+  transform: scale(1.05);
+  opacity: 100%;
+}
+
+.Card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.Card-date,
+.Card-rate {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+  text-align: left;
+}
+
+.Card-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.Card-button:hover {
+  background-color: #013369;
+  transform: translateY(+1px);
+}
+
+.Card-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
