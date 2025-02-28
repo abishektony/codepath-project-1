@@ -57,6 +57,20 @@ const movies = [
     rate: "9.0", 
     img: "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_FMjpg_UX1000_.jpg", 
     link: "https://www.imdb.com/title/tt3498820/" 
+  },
+  { 
+    title: "Thor", 
+    date: "2011", 
+    rate: "7.6", 
+    img: "https://m.media-amazon.com/images/M/MV5BNjRhNGZjZjEtYTQzYS00OWUxLThjNGEtMTIwMTE2ZDFlZTZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", 
+    link: "https://www.imdb.com/title/tt0800369/" 
+  },
+  { 
+    title: "Thor: Ragnarok", 
+    date: "2017", 
+    rate: "8.3", 
+    img: "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_.jpg", 
+    link: "https://www.imdb.com/title/tt3501632/" 
   }
 ];
 
@@ -73,7 +87,7 @@ const MovieList = () => {
             <img className="Card-img" src={movie.img} alt={movie.title}/>
             <h3 className="Card-title">{movie.title}</h3>
             <p className="Card-date">Year Released: {movie.date}</p>
-            <p className="Card-rate">Rating: {movie.rate}⭐</p>
+            <p className="Card-rate">My Rating: {movie.rate}⭐</p>
             <a href={movie.link}>
               <button className="Card-button">Learn more</button>
             </a>
