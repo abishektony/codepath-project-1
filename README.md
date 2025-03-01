@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='project-1\src\assets\walkthrough-1.gif' title='Video Walkthrough' width='100%' alt='Video Walkthrough' />
+<img src='src/assets/walkthrough-1.gif' title='Video Walkthrough' width='100%' alt='Video Walkthrough' />
 
 GIF created with ...  
 [ScreenToGif](https://www.screentogif.com/) for Windows
