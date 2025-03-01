@@ -67,6 +67,7 @@
   width: 250px;
   text-align: center;
   transition: transform 0.2s ease-in-out;
+  opacity: 90%;
 }
 
 .Card:hover {

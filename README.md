@@ -20,13 +20,13 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [X] List anything else that you added to improve the site's functionality!
+* [] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='project-1\src\assets\walkthrough-1.gif' title='Video Walkthrough' width='100%' alt='Video Walkthrough' />
 
 GIF created with ...  
 [ScreenToGif](https://www.screentogif.com/) for Windows
