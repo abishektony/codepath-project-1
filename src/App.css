@@ -59,7 +59,7 @@
 }
 
 .Card {
-  background-color: #ffffff;
+  background-color: #3e3e3e;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   padding: 10px;
@@ -78,19 +78,19 @@
 .Card-title {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #333;
+  color: #eceaea;
 }
 
 .Card-date,
 .Card-rate {
   font-size: 1rem;
-  color: #555;
+  color: #dbdbdb;
   margin: 5px 0;
   text-align: left;
 }
 
 .Card-button {
-  background-color: #007bff;
+  background-color: #000000;
   color: white;
   border: none;
   padding: 10px 15px;

@@ -89,7 +89,7 @@ const MovieList = () => {
             <p className="Card-date">Year Released: {movie.date}</p>
             <p className="Card-rate">My Rating: {movie.rate}⭐</p>
             <a href={movie.link}>
-              <button className="Card-button">Learn more</button>
+              <button className="Card-button">IMBD</button>
             </a>
           </div>
         ))}
